@@ -23,7 +23,7 @@ class BookSearch extends Component {
       <TabBarIOS selectedTab={this.state.selectedTab}>
         <TabBarIOS.Item
           selected={this.state.selectedTab === 'featured'}
-          icon={{uri:'featured'}}
+          systemIcon={{uri:'featured'}}
           onPress={() => {
             this.setState({
               selectedTab: 'featured'
@@ -33,7 +33,7 @@ class BookSearch extends Component {
         </TabBarIOS.Item>
         <TabBarIOS.Item
           selected={this.state.selectedTab === 'search'}
-          icon={{uri:'search'}}
+          systemIcon={{uri:'search'}}
           onPress={() => {
             this.setState({
               selectedTab: 'search'
