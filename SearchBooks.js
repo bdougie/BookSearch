@@ -3,7 +3,7 @@
 var React = require('react-native');
 var SearchResults = require('./SearchResults');
 
-var { StyleSheet, View, Component, TextInput, TouchableHighlights, ActivityIndicatorIOS } = React;
+var { StyleSheet, View, Component, Text, TextInput, TouchableHighlights, ActivityIndicatorIOS } = React;
 
 var styles = StyleSheet.create({
   container: {
